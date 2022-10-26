@@ -58,17 +58,22 @@
 
 .actions a {
     display: block;
-    color: #E090DF;
+    color: #9c03c8;
     text-decoration: none;
-    border: 1px solid #E090DF;
+    border: 1px solid #9c03c8;
     padding: .5rem;
     border-radius: 9rem;
+}
+
+.actions a:hover{
+    background-color: #9c03c8;
+    color: #1f1f1f;
+    border: none;
 }
 
 .actions a span {
     vertical-align: middle;
 }
-
 
 
 .icon {
