@@ -24,10 +24,18 @@
     color: #9c03c8;
 }
 
+.logo a:hover{
+    color: #df78fd;
+}
+
 .navigation a {
     text-decoration: none;
     color: #FC46AA;
     font-size: 1rem;
+}
+
+.navigation a:hover{
+    color: #FEAAD8;
 }
 
 @media (min-width: 768px) {
