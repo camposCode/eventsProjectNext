@@ -1,8 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { getAllEvents } from '../../dummy-data';
 import EventList from '../../components/events/event-list';
+<<<<<<< HEAD
 import EventSearch from '../../components/events/events-search';
 import { useRouter } from 'next/router';
+=======
+
+>>>>>>> parent of adcc11a (filter form for filtering events added)
 export default function AllEventsPage() {
     const events = getAllEvents();
     const router = useRouter();
@@ -13,9 +17,13 @@ export default function AllEventsPage() {
     }
 
     return (
+<<<<<<< HEAD
         <Fragment>
             <EventSearch onSearch={ findEventsHandler } />
+=======
+        <div>
+>>>>>>> parent of adcc11a (filter form for filtering events added)
             <EventList items = { events } />
-        </Fragment>
+        </div>
     )
 }
