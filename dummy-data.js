@@ -27,7 +27,7 @@ const DUMMY_EVENTS = [
         location: 'My Street 12, 10115 Broke City',
         date: '2024-04-10',
         image: 'images/extrovert-event.jpg',
-        isFeatured: false,
+        isFeatured: true,
     },
 ];
 
